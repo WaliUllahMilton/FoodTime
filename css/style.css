@@ -116,8 +116,8 @@ hr{
     opacity: 0.3;
     background: #FFF;
 }
-::placeholder{
-    padding: 16px 74px;
+#banner .container .row .col-lg-7 .search input::placeholder{
+    padding: 16px 74px !important;
 }
 #banner .container .row .col-lg-7 .search{
     width: 714px;
@@ -146,13 +146,13 @@ hr{
     padding: 15px 50px;
     height: 100%;
 }
-#banner .img{
-    position: absolute;
-    top: -198px;
-    left: -209px;
-    width: 288px;
-    height: 288px;
-    transform: rotate(12deg);
+#banner .img {
+	position: absolute;
+	top: 55px;
+	left: -94px;
+	width: 288px;
+	height: 288px;
+	transform: rotate(12deg);
 }
 #banner .container .row .col-lg-5 .b-img{
     width: 499px;
