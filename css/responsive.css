@@ -35,7 +35,7 @@
     }
     #banner .img {
         position: absolute;
-        top: 76px;
+        top: -15px;
         left: 0;
         transform: translateX(-50%) !important;
         width: 100px;
@@ -82,7 +82,7 @@
         height: auto;
     }
     #banner .container .row .col-lg-5 .banner-back {
-        top: 345px;
+        top: -32px;
         right: 27px;
         width: 100px;
         height: 100px;
@@ -117,3 +117,258 @@
         row-gap: 30px;
     }
 }
+
+
+/*========================================*/
+/*========================================*/
+/*========================================*/
+/*========================================*/
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    #nav {
+        background-color: #d6dad3;
+        top: 0;
+        z-index: 9999;
+        padding-bottom: 15px;
+    }
+    #nav .navbar .container .d-flex {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    #nav .navbar .container .d-flex .btn {
+        font-size: 12px;
+        padding: 8px 34px;
+        margin: 0 auto 0 0;
+        border: 225px !important;
+    }
+    #nav .navbar .container .d-flex .cart{
+        order: -1;
+    }
+    #nav .navbar .container .d-flex .cart i {
+        font-size: 12px; 
+    }
+    hr {
+        top: 61px;
+    }
+    /*======================*/
+    #banner {
+        padding: 88px 0 10px;
+    }
+    #banner .container .row .col-lg-7 h1 {
+        font-size: 37px;
+        width: auto;
+        text-align: center;
+    }
+    #banner .img {
+    top: -19px;
+    left: -54px;
+        width: 136px;
+        height: 89px;
+    }
+    #banner .img img {
+        width: 100%;
+    }
+    #banner .container .row .col-lg-7 p {
+        font-size: 20px;
+        padding: 7px 0;
+        text-align: center;
+    }
+    #banner .container .row .col-lg-7 .search {
+        width: 366px;
+        margin: 0 auto;
+    }
+    #banner .container .row .col-lg-7 .search input {
+        width: 100%;
+        height: 47px;
+    }
+    #banner .container .row .col-lg-7 .search .btn {
+        padding: 12px 23px;
+        font-size: 12px;
+    }
+    #banner .container .row .col-lg-7 .search .btn i{
+        font-size: 12px;
+        margin-right: 5px;
+    }
+    #banner .container .row .col-lg-7 .search::after {
+        top: 7px !important;
+        left: 7px !important;
+        height: 33px;
+        width: 33px;
+    }
+    input{
+        font-size: 12px;
+        padding: 0 0 0 45px !important;
+    }
+    #banner .container .row .col-lg-5 .b-img {
+        width: 420px;
+        top: 25px;
+        margin: 0 auto;
+    }
+    #banner .container .row .col-lg-5 .banner-back {
+        top: -32px;
+        right: 27px;
+        width: 100px;
+        height: 100px;
+    }
+    #banner .container .row .col-lg-5 .banner-back img{
+        width: 100%;
+    }
+    /*===============================*/
+    #explore .container .row .col-lg-6{
+        text-align: center;
+    }
+    #explore .container .row .col-lg-6 h2 {
+        font-size: 30px;
+    }
+    #explore .container .row .col-lg-6 p {
+        font-size: 15px;
+        width: auto;
+        margin: 15px 0 20px;
+    }
+    #explore .container .row .col-lg-6 .btn {
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+    #explore .container .row .col-lg-6 .btn i {
+        font-size: 10px;
+        margin-left: 6px;
+    }
+    #explore {
+        padding: 55px 0 55px;
+    }
+    #explore .container .row {
+        row-gap: 30px;
+    }
+}
+
+
+/*========================================*/
+/*========================================*/
+/*========================================*/
+/*========================================*/
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    #nav {
+        background-color: #d6dad3;
+        top: 0;
+        z-index: 9999;
+        padding-bottom: 15px;
+    }
+    #nav .navbar .container .d-flex {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    #nav .navbar .container .d-flex .btn {
+        font-size: 12px;
+        padding: 8px 34px;
+        margin: 0 auto 0 0;
+        border: 225px !important;
+    }
+    #nav .navbar .container .d-flex .cart{
+        order: -1;
+    }
+    #nav .navbar .container .d-flex .cart i {
+        font-size: 12px; 
+    }
+    hr {
+        top: 61px;
+    }
+    /*======================*/
+    #banner {
+        padding: 95px 0 10px;
+    }
+    #banner .container .row .col-lg-7 {
+        margin-top: 65px;
+    }
+    #banner .container .row .col-lg-7 h1 {
+        font-size: 40px;
+        width: auto;
+        text-align: center;
+    }
+    #banner .img {
+        top: -19px;
+        left: -67px;
+        width: 136px;
+        height: 89px;
+    }
+    #banner .img img {
+        width: 100%;
+    }
+    #banner .container .row .col-lg-7 p {
+        font-size: 20px;
+        padding: 7px 0;
+        text-align: center;
+    }
+    #banner .container .row .col-lg-7 .search {
+        width: 366px;
+        margin: 0 auto;
+    }
+    #banner .container .row .col-lg-7 .search input {
+        width: 100%;
+        height: 47px;
+    }
+    #banner .container .row .col-lg-7 .search .btn {
+        padding: 12px 23px;
+        font-size: 12px;
+    }
+    #banner .container .row .col-lg-7 .search .btn i{
+        font-size: 12px;
+        margin-right: 5px;
+    }
+    #banner .container .row .col-lg-7 .search::after {
+        top: 7px !important;
+        left: 7px !important;
+        height: 33px;
+        width: 33px;
+    }
+    input{
+        font-size: 12px;
+        padding: 0 0 0 45px !important;
+    }
+    #banner .container .row .col-lg-5 .b-img {
+        width: 360px;
+        top: 57px;
+        margin: 0 auto;
+    }
+    #explore .container .row .col-lg-6 img {
+        margin-top: 60px;
+    }
+    #banner .container .row .col-lg-5 .banner-back {
+        top: -32px;
+        right: 27px;
+        width: 100px;
+        height: 100px;
+    }
+    #banner .container .row .col-lg-5 .banner-back img{
+        width: 100%;
+    }
+    /*===============================*/
+    #explore .container .row .col-lg-6{
+        text-align: center;
+    }
+    #explore .container .row .col-lg-6 h2 {
+        font-size: 33px;
+    }
+    #explore .container .row .col-lg-6 p {
+        font-size: 16px;
+        width: auto;
+        margin: 25px 0 30px;
+    }
+    #explore .container .row .col-lg-6 .btn {
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+    #explore .container .row .col-lg-6 .btn i {
+        font-size: 10px;
+        margin-left: 6px;
+    }
+    #explore {
+        padding: 55px 0 55px;
+    }
+    #explore .container .row {
+        row-gap: 30px;
+    }
+}
+
