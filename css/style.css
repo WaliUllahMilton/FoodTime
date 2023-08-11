@@ -82,6 +82,9 @@ hr{
     padding: 250px 0 108px;
     background-color: #6b91422a;
 }
+#banner .container{
+    position: relative;
+}
 
 #banner .container .row .col-lg-7{
     margin-top: 55px;
@@ -133,6 +136,7 @@ hr{
     z-index: -1;
 
 }
+
 #banner .container .row .col-lg-7 .search .btn{
     position: absolute;
     top: 0;
@@ -144,8 +148,8 @@ hr{
 }
 #banner .img{
     position: absolute;
-    top: 45px;
-    left: -89px;
+    top: -198px;
+    left: -209px;
     width: 288px;
     height: 288px;
     transform: rotate(12deg);
@@ -160,8 +164,8 @@ hr{
 }
 #banner .container .row .col-lg-5 .banner-back{
     position: absolute;
-    top: 106px;
-    right: 15px ;
+    top: -147px;
+    right: -33px;
     flex-shrink: 0;
     width: 288px;
     height: 288px;
