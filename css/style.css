@@ -140,6 +140,7 @@ hr{
     color: #FFF;
     background-color: #396C03;
     padding: 15px 50px;
+    height: 100%;
 }
 #banner .img{
     position: absolute;
