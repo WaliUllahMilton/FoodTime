@@ -26,17 +26,17 @@
     }
     /*======================*/
     #banner {
-        padding: 88px 0 10px;
+        padding: 100px 0 70px;
     }
     #banner .container .row .col-lg-7 h1 {
-        font-size: 25px;
+        font-size: 40px;
         width: auto;
         text-align: center;
     }
     #banner .img {
         position: absolute;
-        top: -15px;
-        left: 0;
+        top: -19px;
+        left: 6px;
         transform: translateX(-50%) !important;
         width: 100px;
         height: 100px;
@@ -47,12 +47,13 @@
         width: 100%;
     }
     #banner .container .row .col-lg-7 p {
-        font-size: 11px;
-        padding: 1px 0;
+        font-size: 15px;
+        padding: 10px 0;
         text-align: center;
     }
     #banner .container .row .col-lg-7 .search {
-        width: auto;
+        width: 300px;
+        margin: 0 auto;
     }
     #banner .container .row .col-lg-7 .search input {
         width: 100%;
@@ -77,13 +78,14 @@
         padding: 0 0 0 45px !important;
     }
     #banner .container .row .col-lg-5 .b-img {
-        width: auto;
-        top: 17px;
+        width: 300px;
+        top: 45px;
         height: auto;
+        margin: 0 auto;
     }
     #banner .container .row .col-lg-5 .banner-back {
-        top: -32px;
-        right: 27px;
+        top: -41px;
+        right: 25px;
         width: 100px;
         height: 100px;
     }
@@ -98,9 +100,9 @@
         font-size: 30px;
     }
     #explore .container .row .col-lg-6 p {
-        font-size: 11px;
+        font-size: 15px;
         width: auto;
-        margin: 5px 0 10px;
+        margin: 20px 0 25px;
     }
     #explore .container .row .col-lg-6 .btn {
         padding: 5px 15px;
@@ -154,6 +156,7 @@
     /*======================*/
     #banner {
         padding: 88px 0 10px;
+        position: relative;
     }
     #banner .container .row .col-lg-7 h1 {
         font-size: 37px;
