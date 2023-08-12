@@ -148,8 +148,8 @@ hr{
 }
 #banner .img {
 	position: absolute;
-	top: 55px;
-	left: -94px;
+	top: -190px;
+	left: -205px;
 	width: 288px;
 	height: 288px;
 	transform: rotate(12deg);
